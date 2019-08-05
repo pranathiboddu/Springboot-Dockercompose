@@ -1,0 +1,5 @@
+com/stackroute/configgateway/filters/PreFilter.class
+com/stackroute/configgateway/filters/RouteFilter.class
+com/stackroute/configgateway/ConfigGatewayApplication.class
+com/stackroute/configgateway/filters/ErrorFilter.class
+com/stackroute/configgateway/filters/PostFilter.class

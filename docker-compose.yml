@@ -1,0 +1,50 @@
+#  docker-spring -8093      latest              cc356e05fb22        3 days ago          302MB
+# mongo               latest              9c02a5a12c52        9 days ago          413MB
+#docker-eureka-8091
+#docker-configserver -8092
+#docker-apigateway-8090
+
+version: "2"
+services:
+  gateway:
+    image: docker-apigateway
+    build: config-gateway/
+    restart: always
+    network_mode: host
+    depends_on:
+      - eurekaserver
+    ports:
+      - 8090:8090
+    expose:
+      - 8090
+
+  eurekaserver:
+    image: docker-eureka:latest
+    build: eureka-service/
+    restart: always
+    network_mode: host
+    ports:
+      - 8091:8091
+    expose:
+      - 8091
+
+  configserver:
+    image: docker-configserver:latest
+    build: ConfigServer/
+    restart: always
+    network_mode: host
+    ports:
+      - 8092:8092
+    expose:
+      - 8092
+
+  muzix:
+    image: docker-spring
+    build: muzixapplication/
+    restart: always
+    network_mode: host
+    ports:
+      - 8093:8093
+    expose:
+      - 8093
+
