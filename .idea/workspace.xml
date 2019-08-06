@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="812c89fc-8e1f-4731-b903-f8db802f4082" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/muzixapplication/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigServer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-gateway/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-gateway/target/config-gateway-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/config-gateway/target/config-gateway-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-gateway/target/config-gateway-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/config-gateway/target/config-gateway-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-gateway/target/surefire-reports/2019-08-04T18-54-37_860.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-gateway/target/surefire-reports/2019-08-04T19-02-56_280.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-gateway/target/surefire-reports/2019-08-05T11-04-56_871.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config-gateway/target/surefire-reports/TEST-com.stackroute.configgateway.ConfigGatewayApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-gateway/target/surefire-reports/TEST-com.stackroute.configgateway.ConfigGatewayApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-gateway/target/surefire-reports/com.stackroute.configgateway.ConfigGatewayApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config-gateway/target/surefire-reports/com.stackroute.configgateway.ConfigGatewayApplicationTests.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/muzixapplication/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/muzixapplication/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/muzixapplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/muzixapplication/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/muzixapplication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/muzixapplication/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/muzixapplication/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/muzixapplication/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,9 +122,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.EurekaServiceApplication" />
+        <item itemvalue="Application.ConfigGatewayApplication" />
         <item itemvalue="Application.MuzixapplicationApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
-        <item itemvalue="Application.ConfigGatewayApplication" />
         <item itemvalue="JUnit.MuzixapplicationApplicationTests" />
       </list>
     </recent_temporary>
@@ -153,7 +147,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
